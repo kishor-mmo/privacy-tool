@@ -20,9 +20,12 @@ const nextConfig = {
   },
   
   // Disable telemetry to avoid potential issues
-  telemetry: {
-    enabled: false,
-  },
+  // telemetry: {
+  //   enabled: false,
+  // },
+  {
+  "presets": ["next/babel"]
+}
 };
 
 export default nextConfig;
